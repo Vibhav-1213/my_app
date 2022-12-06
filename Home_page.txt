@@ -1,0 +1,298 @@
+import 'package:flutter/material.dart';
+
+class HomePage extends StatelessWidget {
+  const HomePage({Key? key}) : super(key: key);
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      backgroundColor: Colors.white,
+      appBar: AppBar(
+        title: Align(
+          alignment: Alignment.center,
+          child: Text('FLASH CARDS',
+            style: TextStyle(
+                fontFamily: 'PatrickHand',fontSize: 50,color: Colors.black),),
+        ),
+        centerTitle: true,
+        backgroundColor: Colors.white,
+        bottom: PreferredSize(
+          preferredSize: Size.fromHeight(25.0),
+          child: SizedBox(),
+        ),
+      ),
+      body: Container(
+        child: GridView.count(
+          crossAxisCount: 2,
+          mainAxisSpacing: 10,
+          crossAxisSpacing: 10,
+          children: [
+            Container(
+              decoration:
+              BoxDecoration(
+                borderRadius: BorderRadius.circular(20),
+                color: Colors.blue.shade300,
+              ),
+              child: Row(
+                children: [
+                  Expanded(
+                      child: Align(
+                        alignment: Alignment(0.9,0.9),
+                        child: MediaQuery.removePadding(
+                          context: context,
+                          child: IconButton(
+                            icon: Icon(Icons.delete), iconSize: 30,
+                            onPressed: () {},
+                          ),
+                        ),
+                      ))
+                ],
+              ),
+            ),
+            Container(
+              decoration:
+              BoxDecoration(
+                borderRadius: BorderRadius.circular(20),
+                color: Colors.blue.shade300,
+              ),
+              child: Row(
+                children: [
+                  Expanded(
+                      child: Align(
+                        alignment: Alignment(0.9,0.9),
+                        child: MediaQuery.removePadding(
+                          context: context,
+                          child: IconButton(
+                            icon: Icon(Icons.delete), iconSize: 30,
+                            onPressed: () {},
+                          ),
+                        ),
+                      ))
+                ],
+              ),
+            ),
+            Container(
+              decoration:
+              BoxDecoration(
+                borderRadius: BorderRadius.circular(20),
+                color: Colors.blue.shade300,
+              ),
+              child: Row(
+                children: [
+                  Expanded(
+                      child: Align(
+                        alignment: Alignment(0.9,0.9),
+                        child: MediaQuery.removePadding(
+                          context: context,
+                          child: IconButton(
+                            icon: Icon(Icons.delete), iconSize: 30,
+                            onPressed: () {},
+                          ),
+                        ),
+                      ))
+                ],
+              ),
+            ),
+            Container(
+              decoration:
+              BoxDecoration(
+                borderRadius: BorderRadius.circular(20),
+                color: Colors.blue.shade300,
+              ),
+              child: Row(
+                children: [
+                  Expanded(
+                      child: Align(
+                        alignment: Alignment(0.9,0.9),
+                        child: MediaQuery.removePadding(
+                          context: context,
+                          child: IconButton(
+                            icon: Icon(Icons.delete), iconSize: 30,
+                            onPressed: () {},
+                          ),
+                        ),
+                      ))
+                ],
+              ),
+            ),
+            Container(
+              decoration:
+              BoxDecoration(
+                borderRadius: BorderRadius.circular(20),
+                color: Colors.blue.shade300,
+              ),
+              child: Row(
+                children: [
+                  Expanded(
+                      child: Align(
+                        alignment: Alignment(0.9,0.9),
+                        child: MediaQuery.removePadding(
+                          context: context,
+                          child: IconButton(
+                            icon: Icon(Icons.delete), iconSize: 30,
+                            onPressed: () {},
+                          ),
+                        ),
+                      ))
+                ],
+              ),
+            ),
+            Container(
+              decoration:
+              BoxDecoration(
+                borderRadius: BorderRadius.circular(20),
+                color: Colors.blue.shade300,
+              ),
+              child: Row(
+                children: [
+                  Expanded(
+                      child: Align(
+                        alignment: Alignment(0.9,0.9),
+                        child: MediaQuery.removePadding(
+                          context: context,
+                          child: IconButton(
+                            icon: Icon(Icons.delete), iconSize: 30,
+                            onPressed: () {},
+                          ),
+                        ),
+                      ))
+                ],
+              ),
+            ),
+            Container(
+              decoration:
+              BoxDecoration(
+                borderRadius: BorderRadius.circular(20),
+                color: Colors.blue.shade300,
+              ),
+              child: Row(
+                children: [
+                  Expanded(
+                      child: Align(
+                        alignment: Alignment(0.9,0.9),
+                        child: MediaQuery.removePadding(
+                          context: context,
+                          child: IconButton(
+                            icon: Icon(Icons.delete), iconSize: 30,
+                            onPressed: () {},
+                          ),
+                        ),
+                      ))
+                ],
+              ),
+            ),
+            Container(
+              decoration:
+              BoxDecoration(
+                borderRadius: BorderRadius.circular(20),
+                color: Colors.blue.shade300,
+              ),
+              child: Row(
+                children: [
+                  Expanded(
+                      child: Align(
+                        alignment: Alignment(0.9,0.9),
+                        child: MediaQuery.removePadding(
+                          context: context,
+                          child: IconButton(
+                            icon: Icon(Icons.delete), iconSize: 30,
+                            onPressed: () {},
+                          ),
+                        ),
+                      ))
+                ],
+              ),
+            ),
+            Container(
+              decoration:
+              BoxDecoration(
+                borderRadius: BorderRadius.circular(20),
+                color: Colors.blue.shade300,
+              ),
+              child: Row(
+                children: [
+                  Expanded(
+                      child: Align(
+                        alignment: Alignment(0.9,0.9),
+                        child: MediaQuery.removePadding(
+                          context: context,
+                          child: IconButton(
+                            icon: Icon(Icons.delete), iconSize: 30,
+                            onPressed: () {},
+                          ),
+                        ),
+                      ))
+                ],
+              ),
+            ),
+            Container(
+              decoration:
+              BoxDecoration(
+                borderRadius: BorderRadius.circular(20),
+                color: Colors.blue.shade300,
+              ),
+              child: Row(
+                children: [
+                  Expanded(
+                      child: Align(
+                        alignment: Alignment(0.9,0.9),
+                        child: MediaQuery.removePadding(
+                          context: context,
+                          child: IconButton(
+                            icon: Icon(Icons.delete), iconSize: 30,
+                            onPressed: () {},
+                          ),
+                        ),
+                      ))
+                ],
+              ),
+            ),
+            Container(
+              decoration:
+              BoxDecoration(
+                borderRadius: BorderRadius.circular(20),
+                color: Colors.blue.shade300,
+              ),
+              child: Row(
+                children: [
+                  Expanded(
+                      child: Align(
+                        alignment: Alignment(0.9,0.9),
+                        child: MediaQuery.removePadding(
+                          context: context,
+                          child: IconButton(
+                            icon: Icon(Icons.delete), iconSize: 30,
+                            onPressed: () {},
+                          ),
+                        ),
+                      ))
+                ],
+              ),
+            ),
+            Container(
+              decoration:
+              BoxDecoration(
+                borderRadius: BorderRadius.circular(20),
+                color: Colors.blue.shade300,
+              ),
+              child: Row(
+                children: [
+                  Expanded(
+                      child: Align(
+                        alignment: Alignment(0.9,0.9),
+                        child: MediaQuery.removePadding(
+                          context: context,
+                          child: IconButton(
+                            icon: Icon(Icons.delete), iconSize: 30,
+                            onPressed: () {},
+                          ),
+                        ),
+                      ))
+                ],
+              ),
+            ),
+          ],),
+      ),
+    );
+  }
+}
